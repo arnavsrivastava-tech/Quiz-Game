@@ -113,7 +113,7 @@ def quiz(a):
     Button(frame12, text="Resident Evil 2 Remake", font=("Lexend", 20, "bold"), bg="light blue",command=a12_wrong).grid(row=4, column=1)
     Button(frame12, text="Elden Ring", font=("Lexend", 20, "bold"), bg="light blue",command=a12_wrong).grid(row=4, column=2)
 
-    Label(ResultFrame, text="Hope you had fun!", font=("Lexend", 30, "bold"), fg="dark green").grid(row=1, column=2, columnspan=8)
+    Label(ResultFrame, text="Result", font=("Lexend", 30, "bold"), fg="dark green").grid(row=1, column=2, columnspan=8)
     Label(ResultFrame, text="You answered correctly:", font=("Arial", 30, "bold"), fg="dark blue").grid(row=2, column=5)
     Label(ResultFrame, textvariable=total, font=("Arial", 30, "bold"), fg="dark blue").grid(row=2, column=6)
     Label(ResultFrame, text="out of 12 times!", font=("Arial", 30, "bold"), fg="dark blue").grid(row=2, column=7)
