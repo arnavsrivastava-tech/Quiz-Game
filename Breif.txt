@@ -1,8 +1,6 @@
 Quiz Game: 
 A quiz Game of GK with interactive questions and Tkinter GUI.
 
-
-
 Python Concepts Planned:
 
 1)User Input/Output
